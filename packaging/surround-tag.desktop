@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=SurroundTag
+GenericName=Surround Audio Tagger
+Comment=Tag and embed cover art in 5.1 Matroska audio without re-encoding
+Exec=surround-tag %f
+Icon=surround-tag
+Terminal=false
+Categories=AudioVideo;Audio;Utility;
+MimeType=audio/x-matroska;audio/matroska;
+Keywords=surround;5.1;matroska;mka;metadata;cover;mkvtoolnix;
+StartupNotify=true

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>io.github.prismachill.SurroundTag</id>
+  <name>SurroundTag</name>
+  <summary>Tag and embed cover art in 5.1 Matroska audio</summary>
+  <metadata_license>MIT</metadata_license>
+  <project_license>MIT</project_license>
+  <description>
+    <p>
+      SurroundTag pairs original stereo masters with finished 5.1 Matroska Audio files,
+      then writes compliant album and track tags, embeds front cover art, and sets the
+      first audio track as default without re-encoding a single sample.
+    </p>
+    <p>
+      Tags and attachments are applied with mkvpropedit from MKVToolNix. Optional
+      template-based renaming includes collision checks and a one-click undo manifest.
+    </p>
+  </description>
+  <launchable type="desktop-id">surround-tag.desktop</launchable>
+  <developer_name>Prisma Chill</developer_name>
+  <categories>
+    <category>AudioVideo</category>
+    <category>Audio</category>
+    <category>Utility</category>
+  </categories>
+  <keywords>
+    <keyword>surround</keyword>
+    <keyword>5.1</keyword>
+    <keyword>matroska</keyword>
+    <keyword>mka</keyword>
+    <keyword>metadata</keyword>
+    <keyword>cover art</keyword>
+    <keyword>mkvtoolnix</keyword>
+  </keywords>
+  <content_rating type="oars-1.1"/>
+</component>
